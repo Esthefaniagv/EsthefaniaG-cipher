@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Press+Start+2P&family=Roboto+Condensed:wght@300;400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+#body_style {
+  background-color: white;
+}
+
+p {
+  font-weight: 400;
+}
+
+#main_style {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(./img/enzime.png);
+  background-repeat: no-repeat;
+  background-position: 100% 90%;
+}
+
+#main {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_box {
+  height: 220px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  background-color: #7d9ad6 ;
+  border-radius: 20px;
+}
+
+.main_box_title {
+    font-family: 'Anton', sans-serif;
+  font-size: 139px;
+  margin: 0;
+  
+}
+.main_box_text {
+  font-weight: 300;
+}
+#userInput {
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  box-shadow: #7d9ad6 10px 10px;
+}
+
+.input_number {
+  display: flex;
+  flex-direction: column;
+}
+
+#userOutput {
+  width: 300px;
+  height: 100px;
+  border-radius: 20px;
+  box-shadow: #7d9ad6 -10px 10px;
+}
+
+#userMsg {
+  width: 300px;
+  height: 100px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 5px 10px;
+}
+
+.button_box {
+  margin: 10px;
+  height: 50px;
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.unstyle {
+  all: unset;
+}
+
+.button_box_click {
+  padding: 2px 2px;
+  border: 1px solid gray;
+  border-radius: 2px;
+}
+
+.button_box_click:hover {
+  background-color: #7d9ad6;
+}
+
+.alert_encode {
+  background-color: crimson;
+  border-radius: 20px;
+  padding: 0 6px;
+}
+
+.alert_encode p {
+  color: aliceblue;
+}
