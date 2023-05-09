@@ -1,7 +1,7 @@
 const cipher = {
   encode: function (offset, message) {
-    if (typeof offset !== 'number' || typeof message !== 'string') {
-      throw new TypeError('Los argumentos no son de tipo correcto');
+    if (typeof offset !== "number" || typeof message !== "string") {
+      throw new TypeError("Wrong argument types");
     }
     let resultado = "";
     const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
