@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body id="body_style">
+    <main id="main_style">
+    <div id="main">
+      <h1 class="main_box_title">BeSafeMssg</h1>
+      <div class="main_box">
+        <p class="main_box_text">Todos los mensajes que quieras enviarle a tus amigos de una forma secreta y segura.</p>
+        <p class="main_box_text">Comparte con ellos sin que nadie se entere.</p>
+      </div>
+      <p>Ingresa tu mensaje</p>
+        <input type="text" id="userInput" spellcheck="false"/>
+      <div class="input_number">
+        <p>Elige tu clave secreta</p>
+        <input type="number" id="rangeSelector" min="1" max="100">
+      </div>
+      <p>Este es tu mensaje codificado</p>
+        <input type="text" id="userOutput">
+        <p>¿Necesitas decodificar un mensaje? ¡Inténtalo!</p>
+      <div class="button_box">
+        <button class="unstyle button_box_click" id="code">Codifica</button>
+        <button class="unstyle button_box_click" id="decode">Decodifica</button>
+      </div>
+      <div class="alert_encode">
+        <p>Recuerda que deberás compartir tu clave secreta con tus amigos para poder comunicarse correctamente.</p>
+      </div>
+    </div>
+    <script src="index.js" type="module"></script>
+  </main>
+  </body>
+</html>
