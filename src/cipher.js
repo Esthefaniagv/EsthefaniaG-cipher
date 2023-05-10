@@ -1,8 +1,7 @@
 const cipher = {
   encode: function (offset, message) {
-    if (typeof offset !== "number" || typeof message !== "string") {
-      throw new TypeError("Wrong argument types");
-    }
+    // if (typeof offset !== 'number' || typeof message !== 'string') {
+    //   throw new TypeError("Wrong argument types");}
     let resultado = "";
     const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     //para calcular posicion de la letra dentro del abecedario con numero hasta el 25 o menor (negativo)
@@ -20,9 +19,8 @@ const cipher = {
   },
 
   decode: function (offset, message) {
-    if (typeof offset !== 'number' || typeof message !== 'string') {
-      throw new TypeError('Los argumentos no son de tipo correcto');
-    }
+    // if (typeof offset !== 'number' || typeof message !== 'string') {
+    //   throw new TypeError("Wrong argument types");}
     let resultado = "";
     const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     //para calcular posicion de la letra dentro del abecedario con numero hasta el 25 o menor (negativo)
@@ -42,16 +40,3 @@ const cipher = {
 
 export default cipher;
 
-// const cipher ={
-//     encode: function(offset, string){
-//       let userWord = "";
-//       for(let i=0; i< string.lenght; i++){
-//         let indexPalabra = string.charCodeAt(i);
-//         if (indexPalabra >= 65 && location <= 90){
-//           indexPalabra = ((indexPalabra - 65 + offset)% 26) + 65;
-//         }
-//         userWord += string.fromChardCode(indexPalabra);
-//       }
-//       return userWord;
-//     }
-// }
