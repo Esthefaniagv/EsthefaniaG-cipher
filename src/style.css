@@ -58,7 +58,7 @@ p {
   box-shadow: #7d9ad6 10px 10px;
 }
 
-.input_number {
+.input_clave {
   display: flex;
   flex-direction: column;
 }
