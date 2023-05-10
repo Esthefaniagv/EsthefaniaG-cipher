@@ -12,5 +12,7 @@ El principio es básico, tenemos la siguiente estructura:
 
 Hay dos opciones para activar nuestro código, boton de CIFRAR Y DESCRIFRAR. Dependiendo de qué desee el usuario hacer. 
 
+Esta herramienta está pensada para ser fácil de usar por los usuarios, con poco pasos para lograr el objetivo, el diseño es simple con contrastes específicos que ayudan al entendimiento de los pasos mencionados. 
+
 Lenguajes utilizados HTML , CSS y JavaScript. 
 
