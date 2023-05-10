@@ -1,7 +1,9 @@
 const cipher = {
   encode: function (offset, message) {
-    // if (typeof offset !== 'number' || typeof message !== 'string') {
-    //   throw new TypeError("Wrong argument types");}
+    // Comparación de tipos de argumento para verificación
+    if (typeof offset !== "number" || typeof message !== "string") {
+      throw new TypeError("Invalid argument");
+    }
     let resultado = "";
     const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     //para calcular posicion de la letra dentro del abecedario con numero hasta el 25 o menor (negativo)
@@ -19,8 +21,10 @@ const cipher = {
   },
 
   decode: function (offset, message) {
-    // if (typeof offset !== 'number' || typeof message !== 'string') {
-    //   throw new TypeError("Wrong argument types");}
+    // Comparación de tipos de argumento para verificación
+    if (typeof offset !== "number" || typeof message !== "string") {
+      throw new TypeError("Invalid argument");
+    }
     let resultado = "";
     const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     //para calcular posicion de la letra dentro del abecedario con numero hasta el 25 o menor (negativo)
@@ -39,4 +43,3 @@ const cipher = {
 };
 
 export default cipher;
-
